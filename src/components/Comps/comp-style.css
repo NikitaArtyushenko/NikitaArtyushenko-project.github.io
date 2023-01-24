@@ -1,0 +1,71 @@
+.competencies {
+    margin: 50px 0px;
+  }
+  
+  .competencies h2 {
+    margin: 0 0 20px;
+  }
+  
+  .competencies-top-text {
+    margin-bottom: 55px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #4f5a73;
+  }
+  
+  .competency-unit {
+    margin-bottom: 30px;
+  }
+  
+  .competency-unit .text {
+    font-size: 14px;
+    width: 200px;
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  .competency-pic {
+    padding: 0;
+    display: inline-block;
+    margin-bottom: 15px;
+    position: relative;
+    margin-left: 54px;
+  }
+  
+  .competency-pic:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -54px;
+    bottom: -4px;
+    width: 115px;
+    height: 70px;
+    background: url(./img/iconspec.svg) no-repeat center;
+    background-size: contain;
+  }
+  
+  .text {
+    font-weight: 500;
+    font-size: 16px;
+    color: #4f5a73;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .competency-unit .text {
+      font-size: 16px;
+      width: auto;
+      max-width: none;
+      margin: 0;
+    }
+    
+    .competency-pic {
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media screen and (min-width: 1081px) {
+    .competency-pic {
+      margin-left: 0px;
+    }
+  }
+  

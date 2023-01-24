@@ -1,0 +1,58 @@
+
+.partners-with-us h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .partners-with-us-title {
+    width: 740px;
+    max-width: 100%;
+    font-size: 16px;
+    padding: 0 15px;
+    margin: 0 auto 20px;
+    color: #505570;
+    font-weight: 500;
+    line-height: 1.37;
+    text-align: center;
+  }
+  
+  .partners-with-us-slide {
+    padding: 5px;
+  }
+  
+  .partners-with-us-slide div {
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .partners-with-us-slide img {
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+  }
+  .partners-with-us-slider-1{
+    width: 100%; 
+    height: 150px;
+  }
+
+  .partners-with-us-slider-2{
+    width: 100%
+  }
+
+  #wwu-slider-2 .partners-with-us-slide {
+    transform: translateX(50%);
+  }
+  
+  @media screen and (min-width: 768px) {
+    .partners-with-us h2 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+    
+    .partners-with-us-title {
+      margin-bottom: 40px;
+    }
+  }
